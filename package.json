@@ -1,5 +1,5 @@
 {
-  "name": "react_licenta",
+  "name": "web-farm_to_fork",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,12 +39,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/effinfon/react_licenta.git"
+    "url": "git+https://github.com/effinfon/web-farm_to_fork.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/effinfon/react_licenta/issues"
+    "url": "https://github.com/effinfon/web-farm_to_fork/issues"
   },
-  "homepage": "https://github.com/effinfon/react_licenta#readme"
+  "homepage": "https://github.com/effinfon/web-farm_to_fork#readme"
 }

@@ -72,7 +72,7 @@ export function Form () {
                 <button onClick={ () => { HTTPRequest_POST_JSON(Endpoints["local"]["forms"], {communityName, description}); } }>Form</button>
                 <button onClick={ () => { images.map( (image) => { toBase64(image, (_) => { HTTPRequest_POST_Base64(Endpoints["local"]["images"], _); }) }); } }>Image</button>
 
-            { images_toURL && images_toURL.map( (image_toURL, index_image) => <img src={image_toURL} width="100px" height="100px" key={index_image}></img> ) }
+            { images_toURL && images_toURL.map( (image_toURL, index) => <img src={image_toURL} width="100px" height="100px" key={index_image}></img> ) }
         </>
     );
     // <!-- how to do a + bx ? => FSA + x.map() -->
